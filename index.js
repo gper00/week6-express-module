@@ -2,7 +2,7 @@ const express = require('express')
 const profileRouter = require('./routes/profile')
 const { tambah } = require('./utils/math')
 
-const PORT = 1234
+const PORT = 3000
 const app = express()
 
 app.get('/', (req, res) => {
